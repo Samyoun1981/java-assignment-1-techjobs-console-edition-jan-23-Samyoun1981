@@ -1,4 +1,4 @@
-# TechJobs, Console Edition Autograded Rubric
+# org.launchcode.techjobs.console.TechJobs, Console Edition Autograded Rubric
 
 For [this assignment](https://education.launchcode.org/java-web-development/assignments/tech-jobs-console.html), students are asked to complete a console app that allows users to browse, search, and print listings of open jobs.
 
@@ -23,7 +23,7 @@ Submission cannot be graded on unit tests alone. Use the section below as a guid
 1) After launching your app within the console, it should begin with a user prompt that looks similar to:
   
    ``` 
-   Welcome to LaunchCode's TechJobs App!
+   Welcome to LaunchCode's org.launchcode.techjobs.console.TechJobs App!
    View jobs by:
    0 - Search
    1 - List

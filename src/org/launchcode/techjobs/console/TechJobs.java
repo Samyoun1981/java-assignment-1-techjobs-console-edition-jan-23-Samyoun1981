@@ -1,3 +1,5 @@
+package org.launchcode.techjobs.console;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
