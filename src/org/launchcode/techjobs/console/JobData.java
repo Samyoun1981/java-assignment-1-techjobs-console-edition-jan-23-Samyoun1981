@@ -99,15 +99,25 @@ public class JobData {
 
         // load data, if not already loaded
         loadData();
-
+        ArrayList <HashMap<String, String>> jobs = new ArrayList<>();
+        for (HashMap<String, String> row: allJobs){
+            for (HashMap.Entry<String, String> job: row.entrySet()){
+                if (job.getValue().toUpperCase().contains(value) && !jobs.contains(row)){
+                    jobs.add(row);
+                }
+            }
+        }
         // TODO - implement this method
-        return null;
+        return jobs;
     }
+
+
+
 
     /**
      * Read in data from a CSV file and store it in a list
      */
-    private static void loadData() {
+    private static <CSVParser> void loadData() {
 
         // Only load data once
         if (isDataLoaded) {
